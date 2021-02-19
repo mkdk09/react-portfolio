@@ -9,12 +9,24 @@ import Contact from './components/Contact'
 const App: React.FC = () => {
   return (
     <>
-      <Navbar />
-      <MyAvatar />
-      <About />
-      <Skills />
-      <Works />
-      <Contact />
+      <section>
+        <Navbar />
+      </section>
+      <section>
+        <MyAvatar />
+      </section>
+      <section id='about'>
+        <About />
+      </section>
+      <section id='skills'>
+        <Skills />
+      </section>
+      <section id='works'>
+        <Works />
+      </section>
+      <section id='contact'>
+        <Contact />
+      </section>
     </>
   );
 }
