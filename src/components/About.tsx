@@ -13,9 +13,8 @@ const About: React.FC = () => {
         </Box>
         <Box display='flex' justifyContent='center' p={1}>
           <Typography variant='body1' align='left'>
-            私の名前は田中太郎です。<br />
             大阪の大学院生です。<br />
-            好きな言語・フレームワークはTypeScriptとReactです。
+            好きな言語・フレームワークはPython,TypeScriptとDjango,Reactです。
           </Typography>
         </Box>
       </Box>

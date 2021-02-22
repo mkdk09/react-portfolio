@@ -30,7 +30,7 @@ const MyAvatar: React.FC = () => {
         </Box>
         <Box display='flex' justifyContent='center' p={1} >
           <Typography variant='h5' >
-            TARO TANAKA
+            mkdk09
           </Typography>
         </Box>
         <Box display='flex' justifyContent='center' p={1} >
