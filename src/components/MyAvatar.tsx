@@ -23,7 +23,7 @@ const MyAvatar: React.FC = () => {
       <Box p={2}>
         <Box display='flex' justifyContent='center' p={1} >
           <Avatar
-            alt='Taro Tanaka'
+            alt='mkdk09'
             src={ImageFile}
             className={classes.large}
           />
