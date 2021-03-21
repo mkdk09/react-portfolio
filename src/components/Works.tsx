@@ -27,9 +27,13 @@ const Works: React.FC = () => {
         </Box>
         <Box display='flex' justifyContent='center' p={1}>
           <List className={classes.root}>
-            <WorkItems href={ '#' } primary={ 'Work1' } secondary={ 'Work1です。' } />
-            <WorkItems href={ '#' } primary={ 'Work2' } secondary={ 'Work2です。' } />
-            <WorkItems href={ '#' } primary={ 'Work3' } secondary={ 'Work3です。' } />
+            <WorkItems href={ 'https://github.com/mkdk09/analyze-es-front' } primary={ 'analyze-es' } secondary={ 'エントリーシートの内容を解析するWebアプリ' } />
+            <WorkItems href={ 'https://github.com/mkdk09/hiragana-classification' } primary={ 'ひらがな認識' } secondary={ 'ひらがなの手書き文字認識Webアプリ' } />
+            <WorkItems href={ 'https://github.com/mkdk09/LexRank' } primary={ 'LexRank' } secondary={ '文章要約アプリ' } />
+            <WorkItems href={ 'https://github.com/mkdk09/mnist_kivy' } primary={ 'mnist_kivy' } secondary={ 'Kivyで手書き数字分類' } />
+            <WorkItems href={ 'https://github.com/mkdk09/realtime-answer' } primary={ 'realtime-answer' } secondary={ 'リアルタイムアンケートWebアプリ' } />
+            <WorkItems href={ 'https://github.com/mkdk09/random_arXiv' } primary={ 'random_arXiv' } secondary={ 'arXivの論文をランダムで表示するCLI' } />
+            <WorkItems href={ 'https://github.com/mkdk09/react-portfolio' } primary={ 'react-portfolio' } secondary={ 'ポートフォリオ' } />
           </List>
         </Box>
       </Box>
