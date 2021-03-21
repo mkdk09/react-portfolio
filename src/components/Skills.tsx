@@ -59,18 +59,6 @@ const Skills: React.FC = () => {
             </CardContent>
           </Card>
         </Box>
-        {/* <Box display='flex' justifyContent='center' p={1} >
-          <Card className={classes.root}>
-            <CardContent>
-              <Typography variant="h6">
-                AWS
-              </Typography>
-              <Typography color="textSecondary">
-                EC2 / ECS / ECR / Lambda / SQS / SNS / Elastic Beanstalk / S3 / Cloud9 / CloudWatch / CloudFormation / RDS / Route53
-              </Typography>
-            </CardContent>
-          </Card>
-        </Box> */}
       </Box>
     </>
   );

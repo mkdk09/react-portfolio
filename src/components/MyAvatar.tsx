@@ -23,14 +23,14 @@ const MyAvatar: React.FC = () => {
       <Box p={2}>
         <Box display='flex' justifyContent='center' p={1} >
           <Avatar
-            alt='Taro Tanaka'
+            alt='mkdk09'
             src={ImageFile}
             className={classes.large}
           />
         </Box>
         <Box display='flex' justifyContent='center' p={1} >
           <Typography variant='h5' >
-            TARO TANAKA
+            mkdk09
           </Typography>
         </Box>
         <Box display='flex' justifyContent='center' p={1} >

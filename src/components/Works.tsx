@@ -4,11 +4,8 @@ import Typography from '@material-ui/core/Typography'
 
 import { makeStyles } from '@material-ui/core/styles'
 import List from '@material-ui/core/List'
-import ListItem, { ListItemProps } from '@material-ui/core/ListItem'
-import ListItemText from '@material-ui/core/ListItemText'
-import ListItemAvatar from '@material-ui/core/ListItemAvatar'
-import Avatar from '@material-ui/core/Avatar'
-import FolderIcon from '@material-ui/icons/Folder'
+
+import WorkItems from './WorkItems'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -16,10 +13,6 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: '100%',
   },
 }));
-
-function ListItemLink(props: ListItemProps<'a', { button?: true }>) {
-  return <ListItem button component="a" {...props} />;
-}
 
 const Works: React.FC = () => {
   const classes = useStyles();
@@ -34,38 +27,13 @@ const Works: React.FC = () => {
         </Box>
         <Box display='flex' justifyContent='center' p={1}>
           <List className={classes.root}>
-            <ListItem>
-              {/* // GitHubリポジトリなどのURLを貼る */}
-              <ListItemLink href='#'>
-                <ListItemAvatar>
-                  <Avatar>
-                    <FolderIcon />
-                  </Avatar>
-                </ListItemAvatar>
-                {/* // 「primary」に作品名、「secondary」に説明文を書く */}
-                <ListItemText primary='Work1' secondary='Work1です。' />
-              </ListItemLink>
-            </ListItem>
-            <ListItem>
-              <ListItemLink href='#'>
-                <ListItemAvatar>
-                  <Avatar>
-                    <FolderIcon />
-                  </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary='Work2' secondary='Work2です。' />
-              </ListItemLink>
-            </ListItem>
-            <ListItem>
-              <ListItemLink href='#'>
-                <ListItemAvatar>
-                  <Avatar>
-                    <FolderIcon />
-                  </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary='Work3' secondary='Work3です。' />
-              </ListItemLink>
-            </ListItem>
+            <WorkItems href={ 'https://github.com/mkdk09/analyze-es-front' } primary={ 'analyze-es' } secondary={ 'エントリーシートの内容を解析するWebアプリ' } />
+            <WorkItems href={ 'https://github.com/mkdk09/hiragana-classification' } primary={ 'ひらがな認識' } secondary={ 'ひらがなの手書き文字認識Webアプリ' } />
+            <WorkItems href={ 'https://github.com/mkdk09/LexRank' } primary={ 'LexRank' } secondary={ '文章要約アプリ' } />
+            <WorkItems href={ 'https://github.com/mkdk09/mnist_kivy' } primary={ 'mnist_kivy' } secondary={ 'Kivyで手書き数字分類' } />
+            <WorkItems href={ 'https://github.com/mkdk09/realtime-answer' } primary={ 'realtime-answer' } secondary={ 'リアルタイムアンケートWebアプリ' } />
+            <WorkItems href={ 'https://github.com/mkdk09/random_arXiv' } primary={ 'random_arXiv' } secondary={ 'arXivの論文をランダムで表示するCLI' } />
+            <WorkItems href={ 'https://github.com/mkdk09/react-portfolio' } primary={ 'react-portfolio' } secondary={ 'ポートフォリオ' } />
           </List>
         </Box>
       </Box>

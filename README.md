@@ -46,3 +46,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 URL: https://mkdk09-portfolio.netlify.app/
+
+## 参考文献(References)
+* https://qiita.com/kazama1209/items/868c09393007cc9b234f  
+* https://www.membersedge.co.jp/blog/refactor-react-official-tutorial/ (Props)  

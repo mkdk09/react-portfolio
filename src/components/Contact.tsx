@@ -43,18 +43,18 @@ const Contact: React.FC = () => {
           </Typography>
         </Box>
         <Box className={classes.root} display='flex' justifyContent='center' p={1}>
-          <Link href='#' color='inherit'>
+          <Link href='' color='inherit'>
             <Avatar className={classes.green}>
               {/* // 何のアイコンを使うかは各自お好みで（今回はメール、Twitter、GitHub） */}
               <MailIcon />
             </Avatar>
           </Link>
-          <Link href='#' color='inherit'>
+          <Link href='' color='inherit'>
             <Avatar className={classes.blue}>
               <TwitterIcon />
             </Avatar>
           </Link>
-          <Link href='#' color='inherit'>
+          <Link href='https://github.com/mkdk09' color='inherit' target="_blank">
             <Avatar className={classes.purple}>
               <GitHubIcon />
             </Avatar>
